@@ -29,7 +29,7 @@ class _WebViewXState extends State<WebViewX> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('ヘッダ3')),
+        appBar: AppBar(title: const Text('ヘッダ')),
         body: WebViewPlus(
             javascriptMode: JavascriptMode.unrestricted,
             onWebViewCreated: (controller) {
